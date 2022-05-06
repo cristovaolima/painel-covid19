@@ -19,6 +19,21 @@ export const CardPanelContentStyled = styled(CardContent)`
   display: flex;
   justify-content: space-between;
   padding: 25px;
+  .container-info{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .info {
+    display: flex;
+    flex-direction: column;
+  }
+  .pt-2 {    
+    margin-top: -20px;
+  }
 `
 
 export const ItemStyled = styled.div`

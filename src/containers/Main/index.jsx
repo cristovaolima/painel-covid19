@@ -12,6 +12,7 @@ function Main() {
   const getCovidData = useCallback((country) => {
     Api.getCountry(country)
       .then(data => setData(data))
+      console.log(data)
   }, [])
 
   useEffect(() => {    
